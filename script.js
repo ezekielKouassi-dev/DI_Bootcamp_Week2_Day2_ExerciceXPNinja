@@ -15,7 +15,13 @@ else {
     nbreYear = personTwoAge - 2*personOneAge;
 }
 
-alert(`l'année est ${currentYear + nbreYear}`);
+alert(`l'année est ${currentYear - nbreYear}`);
 
 // Exercice 2
 
+// Sans RegEx
+let postalCode = prompt("Saisissez votre code postal :");
+
+if(postalCode.length == 5) {
+
+}
